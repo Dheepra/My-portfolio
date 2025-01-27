@@ -11,15 +11,15 @@ import {
 } from 'react-icons/fa';
 
 const skillsData = [
-  { id: 1, name: 'React.js', level: '80%', icon: <FaReact />, category: 'Frontend' },
-  { id: 2, name: 'JavaScript', level: '70%', icon: <FaJsSquare />, category: 'Frontend' },
-  { id: 3, name: 'CSS / HTML', level: '75%', icon: <FaHtml5 />, category: 'Frontend' },
+  { id: 1, name: 'React.js', level: '65%', icon: <FaReact />, category: 'Frontend' },
+  { id: 2, name: 'JavaScript', level: '60%', icon: <FaJsSquare />, category: 'Frontend' },
+  { id: 3, name: 'CSS / HTML', level: '65%', icon: <FaHtml5 />, category: 'Frontend' },
   { id: 4, name: 'Java', level: '65%', icon: <FaJava />, category: 'Backend' },
-  { id: 5, name: 'Data Structures', level: '60%', icon: <FaDatabase />, category: 'Backend' },
-  { id: 6, name: 'MySQL', level: '75%', icon: <FaDatabase />, category: 'Database' },
-  { id: 7, name: 'Node.js', level: '70%', icon: <FaNodeJs />, category: 'Backend' },
-  { id: 8, name: 'Express.js', level: '65%', icon: <FaServer />, category: 'Backend' },
-  { id: 9, name: 'MongoDB', level: '70%', icon: <FaDocker />, category: 'Database' },
+  { id: 5, name: 'Data Structures', level: '40%', icon: <FaDatabase />, category: 'Backend' },
+  { id: 6, name: 'MySQL', level: '50%', icon: <FaDatabase />, category: 'Database' },
+  { id: 7, name: 'Node.js', level: '40%', icon: <FaNodeJs />, category: 'Backend' },
+  { id: 8, name: 'Express.js', level: '55%', icon: <FaServer />, category: 'Backend' },
+  { id: 9, name: 'MongoDB', level: '65%', icon: <FaDocker />, category: 'Database' },
 ];
 
 const Skills = () => {

@@ -12,7 +12,7 @@ import {
 
 const skillsData = [
   { id: 1, name: 'React.js', level: '65%', icon: <FaReact />, category: 'Frontend' },
-  { id: 2, name: 'JavaScript', level: '60%', icon: <FaJsSquare />, category: 'Frontend' },
+  { id: 2, name: 'JavaScript', level: '55%', icon: <FaJsSquare />, category: 'Frontend' },
   { id: 3, name: 'CSS / HTML', level: '65%', icon: <FaHtml5 />, category: 'Frontend' },
   { id: 4, name: 'Java', level: '65%', icon: <FaJava />, category: 'Backend' },
   { id: 5, name: 'Data Structures', level: '40%', icon: <FaDatabase />, category: 'Backend' },

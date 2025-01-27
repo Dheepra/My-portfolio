@@ -30,29 +30,19 @@ a {
 }
 
 /* Hero Section */
+
 .hero {
-  background: linear-gradient(
-    135deg,
-    #ff9a9e,  /* Soft Pink */
-    #fad0c4,  /* Peach */
-    #fbc2eb,  /* Lavender Pink */
-    #a18cd1,  /* Soft Purple */
-    #84fab0,  /* Light Green */
-    #8fd3f4,  /* Sky Blue */
-    #ffe29f,  /* Warm Yellow */
-    #ffdde1   /* Soft Peach */
-  );
-  background-size: 400% 400%;
-  animation: gradientAnimation 12s ease infinite;
+  background: linear-gradient(135deg, #ff9a9e, #fbc2eb, #a18cd1, #84fab0);
+  background-size: 300% 300%;
+  animation: gradientAnimation 10s ease infinite;
   padding: 100px 20px;
   text-align: center;
-  color: #ffffff; /* White for better contrast with the background */
+  color: #fff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
 @keyframes gradientAnimation {
   0% {
     background-position: 0% 50%;
@@ -385,11 +375,21 @@ html {
   color: #555;
 }
 
-/* Add this to your CSS file */
-.email {
-  color: #000; /* Black color */
-  margin-top: 20px; /* Space above the email address */
-  font-size: 1.2rem; /* Adjust the font size as needed */
-  text-align: center; /* Center align the email address */
+/* Add to your global CSS file */
+.email-contact {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  color: #333;
+  font-weight: 600;
+}
+
+.email-contact a {
+  color: #0077b6; /* Change color to your preference */
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.email-contact a:hover {
+  text-decoration: underline;
 }
 

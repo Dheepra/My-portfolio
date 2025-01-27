@@ -50,6 +50,15 @@ const Hero = () => {
             Download CV
           </motion.a>
         </div>
+        {/* Add your email address below the buttons */}
+        <motion.p
+          className="email"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1, delay: 1 }}
+        >
+          dmprajapati98@gmail.com
+        </motion.p>
       </div>
     </section>
   );

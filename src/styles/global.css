@@ -384,3 +384,12 @@ html {
   font-weight: 600;
   color: #555;
 }
+
+/* Add this to your CSS file */
+.email {
+  color: #000; /* Black color */
+  margin-top: 20px; /* Space above the email address */
+  font-size: 1.2rem; /* Adjust the font size as needed */
+  text-align: center; /* Center align the email address */
+}
+

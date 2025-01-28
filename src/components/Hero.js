@@ -24,16 +24,6 @@ const Hero = () => {
           Passionate about building scalable and performant web applications with React.js. Let's create something amazing together!
         </motion.p>
 
-        {/* Email with Animation */}
-        {/* <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 1.5 }}
-          className="email-contact"
-        >
-          Email: <a href="mailto:dmprajapati98@gmail.com">dmprajapati98@gmail.com</a>
-        </motion.p> */}
-
         <div className="cta-container">
           <motion.button
             className="cta-btn"

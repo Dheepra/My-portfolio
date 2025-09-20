@@ -8,6 +8,7 @@ const certificates = [
   { id: 5, name: 'Basics Java', image: '/images/java.jpg' },
   { id: 6, name: 'Data Structure With Java', image: '/images/data stsurcture.jpg' },
   { id: 2, name: 'Best Performance in MERN Full Stack', image: '/images/best performance.jpg' },
+   { id: 2, name: 'Best Performance in MERN Full Stack', image: '/images/best performance.jpg' },
 ];
 
 const CertificateGrid = () => {
